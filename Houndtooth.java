@@ -133,7 +133,7 @@ public class Houndtooth {
 			"yInterval=4"
 		};
 		
-		ArgumentHandler ah = new ArgumentHandler(defaults, "=");
+		ArgumentHandler ah = new ArgumentHandler(defaults, "=", null);
 		ah.parse(args, "=");
 		
 		setLengths(ah.getInt("xLength"), ah.getInt("yLength"));
